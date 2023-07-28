@@ -1,5 +1,5 @@
 module "vpc" {
-  source        = "./vpc"
+  source        = "./app"
   app = "3-tier-app"
   bucket-name = "test-bucket167" # Bucket name for S3
   vpc_cidr = "11.0.0.0/16" # VPC CIDR
