@@ -1,4 +1,4 @@
-module "vpc" {
+module "app" {
   source        = "./app"
   app = "3-tier-app"
   bucket-name = "test-bucket167" # Bucket name for S3
